@@ -4,7 +4,10 @@ import pagueMenos from "../assets/img/pague-menos-home.png";
 import pagueMenos2 from "../assets/img/pague-menos.png";
 import maeztra from "../assets/img/maeztra.jpg";
 import grarepresentacao from "../assets/img/grarepresentacao.jpg";
-import projImg3 from "../assets/img/project-img3.png";
+import amazonFishing from "../assets/img/amazonFishing.png";
+import topPerformace from "../assets/img/topPerformace.png";
+import advogadoLp from "../assets/img/advogadoLp.png";
+import sorrisoOdonto from "../assets/img/sorrisoOdonto.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -31,6 +34,26 @@ export const Projects = () => {
       title: "GRA representações",
       description: "Desenvolvimento de LP",
       imgUrl: grarepresentacao,
+    },
+        {
+      title: "Top Performace",
+      description: "Desenvolvimento de uma LP para loja de veículos",
+      imgUrl: topPerformace,
+    },
+    {
+      title: "Amazon Fishing Wild",
+      description: "Desenvolvimento de uma LP para viagem de pesca",
+      imgUrl: amazonFishing,
+    },
+    {
+      title: "Sorriso Odonto",
+      description: "Desenvolvimento de uma LP para clínica odontológica",
+      imgUrl: sorrisoOdonto,
+    },
+        {
+      title: "Advocacia",
+      description: "Desenvolvimento de uma LP para escritório de advocacia",
+      imgUrl: advogadoLp,
     }
   ];
 

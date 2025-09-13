@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/img-minhaa.png";
+import headerImg from "../assets/img/meuBanner.png";
 import 'animate.css';    
 import TrackVisibility from 'react-on-screen'; 
   
@@ -56,14 +56,14 @@ export const Banner = () => {
              <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
              <span className="tagline">Bem vindo ao meu portifólio</span>  
              <h1>{`Eae, eu sou Alan`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Desenvolvedor Web", "Front End" ]'><span className="wrap">{text}</span></span></h1>
-               <p>Desenvolvedor Front-end Especialista em React, VTEX IO, JavaScript e TypeScript. Sou um entusiasta da tecnologia e desenvolvedor front-end apaixonado por criar experiências digitais excepcionais. Minhas habilidades abrangentes em React, VTEX IO, JavaScript e TypeScript têm sido fundamentais para o sucesso de diversos projetos nos quais participei.</p>             
+               <p>Desenvolvedor Front-end Especialista em React, VTEX IO, JavaScript, TypeScript, Vite, Tailwind, Html, Css, Angular. Sou um entusiasta da tecnologia e desenvolvedor front-end apaixonado por criar experiências digitais excepcionais. Minhas habilidades abrangentes em React, VTEX IO, JavaScript e TypeScript têm sido fundamentais para o sucesso de diversos projetos nos quais participei.</p>             
               </div>}
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <TrackVisibility>
               {({ isVisible }) =>
-                <div className={isVisible ? "img-minha.png" : ""}>
+                <div className={isVisible ? "meuBanner.png" : ""}>
                   <img src={headerImg} alt="Header Img"/>
                 </div>}
             </TrackVisibility>
